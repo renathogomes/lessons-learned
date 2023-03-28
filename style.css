@@ -6,6 +6,9 @@ body {
   padding: 1px;
   border: 1px solid black;
   font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.897);
+  line-height: auto;
 }
 
 #cabecalho {
@@ -36,7 +39,7 @@ body {
   top: 10px;
 }
 
-article {
+.lado-esquerdo {
   width: 200px;
   position: absolute;
   left: 180px;
@@ -52,7 +55,7 @@ article {
   z-index: 1;
   top: 100px;
 }
-aside {
+.lado-direito {
   position: absolute;
   left: 100px;
   z-index: 2;
