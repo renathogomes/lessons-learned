@@ -1,9 +1,62 @@
 body {
   background-color: rgb(253, 251, 251);
   margin: 0;
+  text-align: center;
 }
 
 #cabecalho {
   top: 0;
   position: fixed;
+}
+
+#imagem {
+  margin-top: 100px;
+  position: absolute;
+  z-index: 2;
+  height: 100vh;
+  background-color: rgba(56, 64, 61, 0.871);
+  border-radius: 60px 60px 0px 0px;
+  left: 10px;
+  width: 120px;
+  
+}
+#minha_foto{
+  height: 100px;
+  border-radius: 100%;
+  border: 3px solid white;
+  position: absolute;
+  left: 8px;
+  top: 10px;
+}
+
+article {
+  width: 200px;
+  position: absolute;
+  left: 180px;
+  z-index: 4;
+  top: 100px;
+}
+
+
+#corpo2 {
+  width: 300px;
+  position: absolute;
+  left: 400px;
+  z-index: 1;
+  top: 100px;
+}
+aside {
+  position: absolute;
+  left: 100px;
+  z-index: 2;
+  top: 400px;
+  width: 300px;
+
+}
+
+#rodape {
+  position: absolute;
+  top: 700px;
+  z-index: 3;
+  left: 100px;
 }
